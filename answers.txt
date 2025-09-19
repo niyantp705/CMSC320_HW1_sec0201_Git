@@ -8,6 +8,10 @@ Q4: What are you looking forward to this semester?
 
 Answer: As a student in CMSC320 this semester, I'm genuinely looking forward to building a strong, practical foundation in data science. I'm excited to move beyond theoretical concepts and gain hands-on proficiency with the essential skills and technologies that drive the field, like data wrangling, visualization, and building predictive models. My goal isn't just to learn the technical mechanics, but to truly understand the 'why' behind them by exploring how data science can be applied to solve meaningful problems across a multitude of domains, from healthcare to finance. Ultimately, I'm hoping to finish the semester with the confidence to tackle complex data challenges and a clearer vision for how I can use these powerful tools in my future career.
 =======
+Q2: What field could data science be applied? Give an example.
+
+Answer: Data science can be applied to virtually all fields, from retail to astronomy. A prominent example is its application in healthcare, where data scientists can utilize machine learning algorithms to analyze vast datasets of patient records, genetic information, and medical images to predict disease outbreaks and patient risks.
+=======
 Q3: What is the difference between Merging and Rebasing?
 
 Answer: The main difference between merging and rebasing is how they integrate changes from one branch into another: merging combines histories, while rebasing rewrites history.
