@@ -1,0 +1,4 @@
+Q1: Why might we consider using Git?
+
+Answer: Git is the industry-standard version control system for managing projects, tracking changes, and facilitating collaboration. Git saves a complete history of all the changes made to a project. This also works as a safety net in case the user may need to revert to a previous version. The platform lets multiple people contribute to the same files simultaneously without overwriting each other's progress. Furthermore, its more powerful feature is branching, which allows developers to work on new features or bug fixes in a safe, isolated environment without affecting the main project. Once completed, those branches can be cleanly merged back.
+
