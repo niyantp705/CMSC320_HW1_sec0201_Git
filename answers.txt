@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Q1: Why might we consider using Git?
 
 Answer: Git is the industry-standard version control system for managing projects, tracking changes, and facilitating collaboration. Git saves a complete history of all the changes made to a project. This also works as a safety net in case the user may need to revert to a previous version. The platform lets multiple people contribute to the same files simultaneously without overwriting each other's progress. Furthermore, its more powerful feature is branching, which allows developers to work on new features or bug fixes in a safe, isolated environment without affecting the main project. Once completed, those branches can be cleanly merged back.
@@ -6,3 +7,12 @@ Answer: Git is the industry-standard version control system for managing project
 Q4: What are you looking forward to this semester?
 
 Answer: As a student in CMSC320 this semester, I'm genuinely looking forward to building a strong, practical foundation in data science. I'm excited to move beyond theoretical concepts and gain hands-on proficiency with the essential skills and technologies that drive the field, like data wrangling, visualization, and building predictive models. My goal isn't just to learn the technical mechanics, but to truly understand the 'why' behind them by exploring how data science can be applied to solve meaningful problems across a multitude of domains, from healthcare to finance. Ultimately, I'm hoping to finish the semester with the confidence to tackle complex data challenges and a clearer vision for how I can use these powerful tools in my future career.
+=======
+Q3: What is the difference between Merging and Rebasing?
+
+Answer: The main difference between merging and rebasing is how they integrate changes from one branch into another: merging combines histories, while rebasing rewrites history.
+
+In a merge, Git takes the commits from a feature branch and a main branch and combines them. This creates a special new "merge commit" in the main branch that ties the two histories together. The original history of the feature branch remains untouched, resulting in a graph-like, branching history that shows exactly when and how the branches were combined. It's a non-destructive operation that preserves the chronological context of your work.
+
+Rebasing, on the other hand, moves the entire feature branch to begin on the tip of the main branch. It works by taking all the commits from your feature branch, one by one, and re-applying them on top of main's latest commit. This process rewrites the project history to be perfectly linear, as if all the work happened sequentially. This creates a much cleaner, easier-to-read history, but it alters the original commit information (like when it was created) and should be used with caution, especially on shared branches where other team members might be working
+>>>>>>> 1ca0fd2 (answered q3)
